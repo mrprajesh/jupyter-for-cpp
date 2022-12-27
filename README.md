@@ -5,7 +5,7 @@ How to run C++ programs from jupyter notebook. We use `docker` to install
 
 Thanks to [xeus-cling!](https://github.com/jupyter-xeus/xeus-cling)
 
-## Reqirements
+### Reqirements
 - Docker v20+ // [Install Docker](https://mrprajesh.co.in/blog/install-docker-on-linux.html)
 - Diskspace upto 5 GB.
 - Tested Ubuntu 20.04/Mint 20.3. Docker 20.10.22. Should work on similar OS or better.
