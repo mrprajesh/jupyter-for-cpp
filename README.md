@@ -10,14 +10,21 @@ Thanks to [xeus-cling!](https://github.com/jupyter-xeus/xeus-cling)
 - Diskspace upto 5 GB.
 - Tested Ubuntu 20.04/Mint 20.3. Docker 20.10.22. Should work on similar OS or better.
 
+
+### Build
+Get some :coffee: :coffee:!
 ```
-# Build
 $ sudo docker build -t test:latest .  
 
-# Run
+```
+### Run
+```
 $ sudo docker run -p 8888:8888 test:latest
+``
 
-# open browser on the host machine: http://127.0.0.1:8888
-# You may run the last cell to the output!
+### Check programs
+
+- Open browser on the host machine: [http://127.0.0.1:8888](http://127.0.0.1:8888) 
+- You may run the last cell to see the output!
 
 ```
