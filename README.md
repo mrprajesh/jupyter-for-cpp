@@ -12,7 +12,7 @@ Thanks to [xeus-cling!](https://github.com/jupyter-xeus/xeus-cling)
 
 
 ### Build
-After cloining it. Get some :coffee: :coffee:!
+After cloining it. Run beloe and get some :coffee: :coffee:!
 ```
 $ sudo docker build -t test:latest .  
 
