@@ -1,0 +1,54 @@
+We use [xeus-cling](https://github.com/jupyter-xeus/xeus-cling).
+
+```
+# Requirements
+- Conda
+- Works on Ubuntu 20.04 
+
+#Download minconda 
+Download and run file for linux x64 https://docs.conda.io/en/latest/miniconda.html 
+                       
+# DO NOT ENABLE BY DEFAULT
+conda config --set auto_activate_base false
+
+# HAVE A DEFAULT
+conda update -n base -c defaults conda
+
+# CREATE ONE FOR CLING
+conda create -n cling
+
+#INSTALL THE REQUIRED
+conda install jupyter 
+
+#INSTALL THE REQUIRED
+conda install notebook
+
+# INSTALL
+conda install xeus-cling -c conda-forge #NOT WORKING
+
+#ACTIVATE
+conda activate cling   #okay!
+
+#RUN
+jupyter notebook 
+
+# Browse
+firefox http://localhost:8888/
+
+CHOOSE C++11/14/17 FROM DROPDOWN
+```
+
+### Office use.
+
+```
+#ACTIVATE
+source activate cling   #not working
+
+
+# LETS DOWNGRADE
+conda install xeus-cling==0.9.0 -c conda-forge
+
+# NOT WORKING
+jupyter console --kernel xcpp14 
+jupyter kernelspec install PREFIX/share/jupyter/xcpp14 --sys-prefix
+```

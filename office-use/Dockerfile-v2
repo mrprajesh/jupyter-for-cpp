@@ -1,0 +1,26 @@
+# sudo docker build -t test:latest .
+# sudo docker run -p 8888:8888 test:latest
+FROM ubuntu:22.04
+MAINTAINER Rajesh Pandian M <http://mrprajesh.co.in>
+
+
+# wget
+RUN apt-get update && apt-get install -y wget 
+
+# Install miniconda
+ENV CONDA_DIR /opt/conda
+RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh && bash Miniconda3-latest-Linux-x86_64.sh -b -p /opt/conda
+
+ENV PATH=$CONDA_DIR/bin:$PATH
+RUN conda init bash
+RUN conda update -n base -c defaults conda
+
+RUN conda install jupyter notebook -y 
+RUN conda install -c conda-forge xeus-cling -y
+
+
+COPY HellWorld.ipynb  /root
+EXPOSE 8888
+
+CMD conda activate cling && jupyter notebook --allow-root
+
