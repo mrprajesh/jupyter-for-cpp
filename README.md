@@ -20,11 +20,11 @@ $ sudo docker build -t test:latest .
 ### Run
 ```
 $ sudo docker run -p 8888:8888 test:latest
-``
+```
 
-### Check programs
+### Check/Write/Run C++ Programs
 
 - Open browser on the host machine: [http://127.0.0.1:8888](http://127.0.0.1:8888) 
 - You may run the last cell to see the output!
 
-```
+
