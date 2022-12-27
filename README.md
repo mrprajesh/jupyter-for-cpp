@@ -18,5 +18,6 @@ $ sudo docker build -t test:latest .
 $ sudo docker run -p 8888:8888 test:latest
 
 # open browser on the host machine: http://127.0.0.1:8888
+# You may run the last cell to the output!
 
 ```
