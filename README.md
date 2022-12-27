@@ -1,7 +1,9 @@
 # How to run C++ on jupyter notebook using Docker 
 
 How to run C++ programs from jupyter notebook. We use `docker` to install 
-`xeus-cling` underneath. Thanks to [xeus-cling!](https://github.com/jupyter-xeus/xeus-cling)
+`xeus-cling` underneath. 
+
+Thanks to [xeus-cling!](https://github.com/jupyter-xeus/xeus-cling)
 
 ## Reqirements
 - Docker v20+ // [Install Docker](https://mrprajesh.co.in/blog/install-docker-on-linux.html)
