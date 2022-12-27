@@ -38,7 +38,7 @@ RUN conda install jupyter notebook -y
 RUN conda install -c conda-forge xeus-cling -y
 
 
-COPY HellWorld.ipynb /root/
+COPY HelloWorld.ipynb /root/
 EXPOSE 8888
 
 #change dir
