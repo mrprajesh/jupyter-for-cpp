@@ -12,7 +12,7 @@ Thanks to [xeus-cling!](https://github.com/jupyter-xeus/xeus-cling)
 
 
 ### Build
-Get some :coffee: :coffee:!
+After cloining it. Get some :coffee: :coffee:!
 ```
 $ sudo docker build -t test:latest .  
 
@@ -24,7 +24,9 @@ $ sudo docker run -p 8888:8888 test:latest
 
 ### Check/Write/Run C++ Programs
 
-- Open browser on the host machine: [http://127.0.0.1:8888](http://127.0.0.1:8888) 
+- Open browser on the host machine: [http://127.0.0.1:8888](http://127.0.0.1:8888) or like below:
 - You may run the last cell to see the output!
+
+![image](https://user-images.githubusercontent.com/259998/209664587-2d314cec-7c0e-4efd-af8a-5d407d57e78d.png)
 
 
