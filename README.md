@@ -8,11 +8,11 @@ Thanks to [xeus-cling!](https://github.com/jupyter-xeus/xeus-cling)
 ### Reqirements
 - Docker v20+ // [Install Docker](https://mrprajesh.co.in/blog/install-docker-on-linux.html)
 - Diskspace upto 5 GB.
-- Tested Ubuntu 20.04/Mint 20.3. Docker 20.10.22. Should work on similar OS or better.
+- Tested on Ubuntu 20.04/Mint 20.3. Docker 20.10.22. Should work on similar setup or better.
 
 
 ### Build
-After cloining it. Run beloe and get some :coffee: :coffee:!
+After cloining it, run the below and get some :coffee: :coffee:!
 ```
 $ sudo docker build -t test:latest .  
 
